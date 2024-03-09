@@ -1,0 +1,83 @@
+{
+  "info": {
+    "status": 200,
+    "name": "Provinces Api Ada",
+    "version": "1.0.0"
+  },
+  "users": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440000",
+      "username": "user1",
+      "password": "password1",
+      "email": "user1@example.com"
+    },
+    {
+      "id": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
+      "username": "user2",
+      "password": "password2",
+      "email": "user2@example.com"
+    },
+    {
+      "id": "6ba7b811-9dad-11d1-80b4-00c04fd430c8",
+      "username": "user3",
+      "password": "password3",
+      "email": "user3@example.com"
+    },
+    {
+      "id": "6ba7b812-9dad-11d1-80b4-00c04fd430c8",
+      "username": "user4",
+      "password": "password4",
+      "email": "user4@example.com"
+    }
+  ],
+  "provinces": [
+    {
+      "name": "Buenos Aires",
+      "postalCode": "C1000",
+      "population": 3016229,
+      "capital": "La Plata",
+      "touristAttractions": [
+        "Congreso de Tucumán",
+        "Museo de Arte Moderno de Buenos Aires",
+        "Paseo La Plaza"
+      ],
+      "maxRegisteredTemperature": 40
+    },
+    {
+      "name": "Córdoba",
+      "postalCode": "5000",
+      "population": 1579000,
+      "capital": "Córdoba",
+      "touristAttractions": [
+        "Catedral de Córdoba",
+        "Museo de Bellas Artes Carlos Pellegrini",
+        "Museo de Ciencias Naturales y Antropología"
+      ],
+      "maxRegisteredTemperature": 45
+    },
+    {
+      "name": "Mendoza",
+      "postalCode": "5500",
+      "population": 1080000,
+      "capital": "Mendoza",
+      "touristAttractions": [
+        "Cerro de los Andes",
+        "Museo de Arte de Mendoza",
+        "Museo de Ciencias Naturales"
+      ],
+      "maxRegisteredTemperature": 35
+    },
+    {
+      "name": "Santiago del Estero",
+      "postalCode": "4100",
+      "population": 750000,
+      "capital": "Santiago del Estero",
+      "touristAttractions": [
+        "Catedral de Santiago del Estero",
+        "Museo de Arte Colonial",
+        "Museo de Ciencias Naturales"
+      ],
+      "maxRegisteredTemperature": 40
+    }
+  ]
+}
